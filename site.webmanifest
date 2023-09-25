@@ -1,6 +1,6 @@
 {
-    "name":"Trolley app",
-    "short_name":"Trolley app",
+    "name":"Add to Cart app",
+    "short_name":"Add to Cart app",
     "icons":[
         {
             "src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"
