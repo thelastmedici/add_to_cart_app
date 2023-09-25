@@ -3,16 +3,20 @@ html, body{
     margin: 0px;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
+    user-select: none;
 }
 .container{
     max-width: 320px;
     display: flex;
     flex-direction: column;
     margin: 30px auto;
+    
 }
 img{
     width: 150px;
     margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: -2px 3px 10px #C51605;
 }
 
 input{
@@ -23,7 +27,8 @@ input{
     border:0;
     border-radius: 8px;
     font-size: 20px;
-    font-family: 'Rubik', sans-serif; ;
+    font-family: 'Rubik', sans-serif;
+    
 }
 
 button{
@@ -36,5 +41,33 @@ button{
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
     margin-top: 10px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 0px;
+
 }
 
+ul li{
+    background-color: #FFFDF8;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    flex-grow: 1;
+    font-size: 20px;
+    box-shadow: 2px 3px 7px rgb(110, 65, 65);
+    text-align: center;
+    color: rgb(122, 118, 118);
+
+}
+button:hover{
+    background-color:#FD8D14;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: #FFE17B;
+    cursor: pointer;
+}
